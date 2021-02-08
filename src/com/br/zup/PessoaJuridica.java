@@ -1,4 +1,9 @@
 package com.br.zup;
+/**
+ * Classe de gerenciamento da lista.
+ * @author Vinicius Ferreira
+ * Apesar do @author ser Vinicius Ferreira, essa classe teve alteracao cujo metodo toString
+ */
 
 public class PessoaJuridica extends Pessoa{
     private String CNPJ;
@@ -25,4 +30,12 @@ public class PessoaJuridica extends Pessoa{
     public void setNomeFantasia(String nomeFantasia) {
         this.nomeFantasia = nomeFantasia;
     }
+
+    @Override
+    public String toString() {
+        return  "Nome: " + super.getNome() +"\n"+
+                "Telefone: "+ super.getNumeroDeTelefone()+ "\n"+
+                "CNPJ :'" + CNPJ +"\n"+
+                "Nome fantasia: "  + nomeFantasia;
+   }
 }

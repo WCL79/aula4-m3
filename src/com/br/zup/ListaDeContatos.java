@@ -15,7 +15,12 @@ public class ListaDeContatos {
     }
 
     public void adicionarPessoa(Pessoa pessoa){
+
         pessoas.add(pessoa);
+    }
+    public void adicionarPessoaPJ(Pessoa pessoaPj){
+
+        pessoas.add(pessoaPj);
     }
 
     /**

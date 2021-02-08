@@ -16,18 +16,22 @@ public class Pessoa {
     }
 
     public String getNome() {
+
         return nome;
     }
 
     public void setNome(String nome) {
+
         this.nome = nome;
     }
 
     public String getNumeroDeTelefone() {
+
         return numeroDeTelefone;
     }
 
     public void setNumeroDeTelefone(String numeroDeTelefone) {
+
         this.numeroDeTelefone = numeroDeTelefone;
     }
 }
